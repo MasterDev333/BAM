@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Colors
+$primary: #F36E16;
+$secondary: #D77540;
+$accent: #7196B5;
+$background_color: #F9F4F1;
+$border_color: #3F526F;
+$heading_color: #2f2f2f;
+$heading_color--dark: #080808;
+$text_color: #444;
+$c-black: #000;
+$c-cyan: #7ba7bc;
+$c-red: #F04C24;
+$c-orange: #F69D0F;
+$c-yellow: #FFD200;
+$c-green: #30443A;
+$c-green--light: #446253;
+$c-grey: #969696;
+$c-white: #fff;
+//Media query breakpoints
+$viewport-sm: 375px;
+$viewport-md: 768px;
+$breakpoints: (
+  "phone-xsmall": 320px,
+  "phone-s21": 360px,
+  "phone-small": 375px,
+  "phone": 425px,
+  "phone-wide": 480px,
+  "phablet": 560px,
+  "tablet-small": 640px,
+  "tablet": 768px,
+  "tablet-wide": 992px,
+  "desktop-small": 1024px,
+  "desktop": 1200px,
+  "desktop-wide": 1439px,
+  "desktop-ultra": 1599px,
+);
+
+// Font name
+$f-heading: "DM Sans", sans-serif;
+$f-text: "DM Sans", sans-serif;
+
+// inline SVGs
